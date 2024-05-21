@@ -98,7 +98,7 @@ ol {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.22;
+  line-height: 1.2;
   color: #FFFFFF;
 }
 
@@ -125,7 +125,7 @@ ol {
 .content__video-card-thumbnail {
   height: 103px;
   width: 194px;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
@@ -157,7 +157,7 @@ ol {
   line-height: 100%;
   text-transform: uppercase;
   color: #FFFFFF;
-  max-inline-size: 200px;
+  max-inline-size: 196px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -169,7 +169,7 @@ ol {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.1;
+  line-height: 0.9;
   color: #FFFFFF;
 
 }
@@ -196,7 +196,7 @@ ol {
   min-width: 225px;
   min-height: 27px;
   padding: 2.5px 14px 2.5px 0px;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -276,11 +276,11 @@ ol {
 }
 
 .search-form__label:has(.search-form__checkbox):hover {
-  Text-decoration: underline;
+  text-decoration: underline;
 }
 
 .button:hover {
-  Text-decoration: underline;
+  text-decoration: underline;
 }
 
 .button:active {
@@ -311,12 +311,11 @@ ol {
 }
 
 .content__card-link:hover {
-  Text-decoration: underline;
+  text-decoration: underline;
   text-decoration-color: #fff;
 }
 
 .content__card-link:active {
   background-color: #545050;
 }
-
 
